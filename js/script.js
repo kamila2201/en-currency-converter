@@ -50,13 +50,6 @@
     init();
 
 
-    // const deleteResult = () => {
-    //     resultElement.innerHTML = ``;
-    // }
-
-    // let resetButton = document.querySelector(".js-reset");
-
-    // resetButton.addEventListener("click", deleteResult());
 }
 
 
