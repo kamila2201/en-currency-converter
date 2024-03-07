@@ -27,9 +27,7 @@
         resultElement.innerHTML = `You will receive <strong class="outputAmount">${result.toFixed(2)} ${currency}</strong>`;
     }
 
-    const formElement = document.querySelector(".js-form");
-
-    formElement.addEventListener("submit", (event) => {
+    const onFormSubmit = (event) => {
         event.preventDefault();
 
         const amountElement = document.querySelector(".js-amount");
@@ -41,9 +39,12 @@
         const result = calculateResult(amount, currency);
 
         updateResultText(result, currency);
-    });
+    }
 
-    
+    const formElement = document.querySelector(".js-form");
+
+    formElement.addEventListener("submit", onFormSubmit);
+
 
     // const deleteResult = () => {
     //     resultElement.innerHTML = ``;
