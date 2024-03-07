@@ -1,0 +1,15 @@
+.footer {
+    margin-top:10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer__link {
+    color: #296e54;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+    color: rgb(246, 133, 133);
+}
