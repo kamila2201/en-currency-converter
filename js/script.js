@@ -41,9 +41,13 @@
         updateResultText(result, currency);
     }
 
-    const formElement = document.querySelector(".js-form");
+    const init = () => {
+        const formElement = document.querySelector(".js-form");
 
-    formElement.addEventListener("submit", onFormSubmit);
+        formElement.addEventListener("submit", onFormSubmit);
+    }
+
+    init();
 
 
     // const deleteResult = () => {
