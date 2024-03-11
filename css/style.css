@@ -7,9 +7,10 @@ html {
 }
 
 .body {
-    margin: 20px auto;
-    width: 100%;
-    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
     line-height: 1.5;
     font-family: "Raleway", sans-serif;
     background-image: url("../images/money.jpg");
