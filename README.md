@@ -7,7 +7,7 @@ I created a simple currency converter that will check how much money you would r
 - JavaScript
 - BEM
 - ES6+ features
-- FLex
+- FlexBox
 ## Check it out!
 https://kamila2201.github.io/en-currency-converter/
 ![Currency converter website gif](images/animation.gif)
